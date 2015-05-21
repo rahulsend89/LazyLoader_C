@@ -16,7 +16,7 @@ CGFloat const spaceFromFrame = 1.0f;
 @dynamic startAngle, endAngle;
 @synthesize fillColor, strokeColor, strokeWidth;
 
-- (void)initVariablesWithFrame:(CGRect)frame {
+- (void)startAnimationInFrame:(CGRect)frame {
     self.frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
     self.fillColor = [UIColor clearColor];
     self.strokeColor = [UIColor blackColor];
@@ -30,6 +30,7 @@ CGFloat const spaceFromFrame = 1.0f;
     if (self = [super initWithLayer:layer]) {
         if ([layer isKindOfClass:[LazyLoaderLayer class]]) {
             LazyLoaderLayer *other = (LazyLoaderLayer *)layer;
+            self.frame = other.frame;
             self.startAngle = other.startAngle;
             self.endAngle = other.endAngle;
             self.fillColor = other.fillColor;

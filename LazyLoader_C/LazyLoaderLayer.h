@@ -16,5 +16,5 @@
 @property (nonatomic)CGFloat strokeWidth;
 @property (nonatomic)CGFloat radius;
 
-- (void)initVariablesWithFrame:(CGRect)frame;
+- (void)startAnimationInFrame:(CGRect)frame;
 @end

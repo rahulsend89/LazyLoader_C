@@ -20,7 +20,7 @@
     [super viewDidLoad];
     self.myLoader = [LazyLoaderLayer layer];
     [self.loaderView.layer addSublayer:self.myLoader];
-    [self.myLoader initVariablesWithFrame:self.loaderView.frame];
+    [self.myLoader startAnimationInFrame:self.loaderView.frame];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
