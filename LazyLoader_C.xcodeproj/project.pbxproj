@@ -14,6 +14,7 @@
 		03B3B5401B0DBC0300468137 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B3B53F1B0DBC0300468137 /* Images.xcassets */; };
 		03B3B5431B0DBC0300468137 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B3B5411B0DBC0300468137 /* LaunchScreen.xib */; };
 		03B3B54F1B0DBC0300468137 /* LazyLoader_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3B54E1B0DBC0300468137 /* LazyLoader_CTests.m */; };
+		03B3B55A1B0DBC1B00468137 /* LazyLoaderLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3B5591B0DBC1B00468137 /* LazyLoaderLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		03B3B5481B0DBC0300468137 /* LazyLoader_CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyLoader_CTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B3B54D1B0DBC0300468137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03B3B54E1B0DBC0300468137 /* LazyLoader_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LazyLoader_CTests.m; sourceTree = "<group>"; };
+		03B3B5581B0DBC1B00468137 /* LazyLoaderLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LazyLoaderLayer.h; sourceTree = "<group>"; };
+		03B3B5591B0DBC1B00468137 /* LazyLoaderLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyLoaderLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				03B3B5361B0DBC0300468137 /* AppDelegate.h */,
 				03B3B5371B0DBC0300468137 /* AppDelegate.m */,
 				03B3B5391B0DBC0300468137 /* ViewController.h */,
+				03B3B5581B0DBC1B00468137 /* LazyLoaderLayer.h */,
+				03B3B5591B0DBC1B00468137 /* LazyLoaderLayer.m */,
 				03B3B53A1B0DBC0300468137 /* ViewController.m */,
 				03B3B53C1B0DBC0300468137 /* Main.storyboard */,
 				03B3B53F1B0DBC0300468137 /* Images.xcassets */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B3B55A1B0DBC1B00468137 /* LazyLoaderLayer.m in Sources */,
 				03B3B53B1B0DBC0300468137 /* ViewController.m in Sources */,
 				03B3B5381B0DBC0300468137 /* AppDelegate.m in Sources */,
 				03B3B5351B0DBC0300468137 /* main.m in Sources */,
