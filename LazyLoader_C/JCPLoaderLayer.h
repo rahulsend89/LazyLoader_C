@@ -1,5 +1,5 @@
 //
-//  LazyLoaderLayer.h
+//  JCPLoaderLayer.h
 //  LazyLoader_C
 //
 //  Created by Malik, Rahul (US - Mumbai) on 5/21/15.
@@ -8,13 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LazyLoaderLayer : CALayer
-@property (nonatomic)CGFloat startAngle;
-@property (nonatomic)CGFloat endAngle;
-@property (nonatomic)UIColor *fillColor;
+@interface JCPLoaderLayer : CALayer
 @property (nonatomic)UIColor *strokeColor;
 @property (nonatomic)CGFloat strokeWidth;
-@property (nonatomic)CGFloat radius;
-
 - (void)startAnimationInFrame:(CGRect)frame;
 @end

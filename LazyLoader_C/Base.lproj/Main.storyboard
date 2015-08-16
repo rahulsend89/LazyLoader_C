@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,27 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="27O-2j-JE6">
-                                <rect key="frame" x="250" y="250" width="100" height="100"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="27O-2j-JE6" secondAttribute="height" multiplier="1:1" id="Mqs-Tc-qmp"/>
-                                    <constraint firstAttribute="width" constant="100" id="VRy-Iy-KH4"/>
-                                </constraints>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Es3-cS-nfV">
+                                <rect key="frame" x="22" y="28" width="26" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="27O-2j-JE6" secondAttribute="centerY" constant="0.5" id="18t-ZW-hMd"/>
-                            <constraint firstAttribute="centerX" secondItem="27O-2j-JE6" secondAttribute="centerX" id="ULx-Wo-yvk"/>
-                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="loaderView" destination="27O-2j-JE6" id="uyw-hs-Ktl"/>
+                        <outlet property="loaderView" destination="Es3-cS-nfV" id="dmH-Ix-ZwI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="559" y="-47"/>
         </scene>
     </scenes>
 </document>

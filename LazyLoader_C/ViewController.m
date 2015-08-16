@@ -7,18 +7,18 @@
 //
 
 #import "ViewController.h"
-#import "LazyLoaderLayer.h"
+#import "JCPLoaderLayer.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIView *loaderView;
-@property (nonatomic)LazyLoaderLayer *myLoader;
+@property (nonatomic)JCPLoaderLayer *myLoader;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.myLoader = [LazyLoaderLayer layer];
+    self.myLoader = [[JCPLoaderLayer alloc] initWithLayer:self.loaderView.layer];
     [self.loaderView.layer addSublayer:self.myLoader];
     [self.myLoader startAnimationInFrame:self.loaderView.frame];
 }

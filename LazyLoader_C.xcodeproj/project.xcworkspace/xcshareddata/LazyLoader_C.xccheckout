@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A5B42674-9156-415C-93CE-2DDFB14637C3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LazyLoader_C</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ED778BA418E47826244DF640B3805AF818E90C36</key>
+		<string>github.com:rahulsend89/LazyLoader_C.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LazyLoader_C.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ED778BA418E47826244DF640B3805AF818E90C36</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:rahulsend89/LazyLoader_C.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ED778BA418E47826244DF640B3805AF818E90C36</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ED778BA418E47826244DF640B3805AF818E90C36</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LazyLoader_C</string>
+		</dict>
+	</array>
+</dict>
+</plist>
